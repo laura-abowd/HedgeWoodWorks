@@ -1,0 +1,106 @@
+:root {
+--gothic: 'Pathway Gothic One', sans-serif;
+--poppins: 'Poppins', sans-serif;
+--white: hsla(0, 1%, 94%, 100%);
+--black: hsla(0, 1%, 15%, 100%);
+}
+
+body,
+html {
+  font-family: var(--poppins);
+  font-size: 16px;
+}
+
+.h1__header-text {
+
+}
+
+.h2__header-text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.h3__header-text {
+
+}
+
+.nav-bar-img {
+  background-image: linear-gradient(rgba(196, 196, 196, .10), rgba(196, 196, 196, .10)),
+url('assets/wood-bkgd.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  /*height: 80px;*/
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+
+section {
+  /*background-color: lightblue;*/
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  /*background-color: pink;*/
+  display: flex;
+  align-items: center;
+}
+
+.hero-img {
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+}
+
+.img-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.img-container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  /*background-color: pink;*/
+}
+
+.services-content {
+  width: 65%;
+}
+
+
+footer {
+  background-color: var(--black);
+}
+
+.footer-container-contents {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.footer-div a {
+  color: var(--white);
+}
+
+
